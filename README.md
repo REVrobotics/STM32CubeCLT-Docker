@@ -1,5 +1,5 @@
-Unofficial STM32Cube CLT Docker Image
-=====================================
+Unofficial STM32CubeCLT Docker Image
+====================================
 
 This repo creates a Docker image for the STM32 Command Line Tools (CLT).
 
