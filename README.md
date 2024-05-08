@@ -29,8 +29,8 @@ Building
 7. run ```docker ps -a``` to find the container id
 8. run ```docker commit <container id from before> ghcr.io/<organization name>/stm32cubeclt:<version>```
 
-Pushing
--------
+Publishing
+----------
 
 1. Create a PAT for your GitHub account
 2. run ```echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin``` to login to docker
