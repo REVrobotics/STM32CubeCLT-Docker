@@ -7,6 +7,12 @@ A ubuntu environment is recommended for building. WSL can be used on Windows.
 
 There are a few manual steps involved.
 
+Using
+-----
+
+This image contains the STM32CubeCLT package (located at /opt/st) and is based on
+Ubuntu 24.04. To use the package, pull `ghcr.io/revrobotics/stm32cubeclt:<version>`.
+
 Building
 --------
 
