@@ -11,8 +11,9 @@ Using
 -----
 
 This image contains the STM32CubeCLT package (located at /opt/st) and is based on
-Ubuntu 24.04 with CMake installed using KitWare's APT repository and clang. To use 
-the package, pull `ghcr.io/revrobotics/stm32cubeclt:<version>`.
+Ubuntu 24.04 with CMake installed using KitWare's APT repository and clang and pip3 
+installed using the standard Ubuntu repository. To use the package, pull 
+`ghcr.io/revrobotics/stm32cubeclt:<version>`.
 
 Building
 --------
