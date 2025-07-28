@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 COPY st-stm32cubeclt_1.18.0_24403_20250225_1636_amd64.deb_bundle.sh /install.sh
 
 RUN apt-get update && apt-get upgrade -y
