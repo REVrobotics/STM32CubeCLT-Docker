@@ -1,7 +1,7 @@
-FROM ubuntu:latest
-COPY st-stm32cubeclt_1.14.0_19471_20231121_1200_amd64.deb_bundle.sh /install.sh
+FROM ubuntu:22.04
+COPY st-stm32cubeclt_1.18.0_24403_20250225_1636_amd64.deb_bundle.sh /install.sh
 
-RUN apt update && apt upgrade
+RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y libusb-1.0-0-dev clang python3 python3-pip python3-venv
 
 # Create and activate the virtual environment
@@ -33,3 +33,6 @@ RUN apt-get install -y cmake
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata
 
 RUN chmod +x /install.sh
+
+
+# RUN mv /opt/st/stm32cubeclt_* /opt/st/stm32cubeclt
